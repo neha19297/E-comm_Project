@@ -1,0 +1,13 @@
+table{
+    text-align: left;
+    border-collapse: collapse;
+
+}
+table td,table th{
+    border:1px solid;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

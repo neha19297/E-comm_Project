@@ -1,0 +1,76 @@
+{
+  "login": [
+    {
+      "id": 1
+    },
+    {
+      "name": "neha",
+      "password": "htgj",
+      "email": "neha@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "neha",
+      "password": "htgj",
+      "email": "neha@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "i-phone",
+      "price": "100000",
+      "description": "hdyhjjjjjj",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-select-202207-white?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1662150115751",
+      "id": 1
+    },
+    {
+      "name": "Realme",
+      "price": "24000",
+      "description": "mobile phone with 128GB storage",
+      "image": "https://cdn1.smartprix.com/rx-ivQiMBr6z-w1200-h1200/realme-9-pro-plus-5g.webp",
+      "id": 2
+    },
+    {
+      "name": "samsung",
+      "price": "30000",
+      "description": "128GB",
+      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
+      "id": 3
+    },
+    {
+      "name": "samsung",
+      "price": "30000",
+      "description": "128GB",
+      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
+      "id": 4
+    },
+    {
+      "name": "samsung",
+      "price": "30000",
+      "description": "128GB",
+      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
+      "id": 5
+    },
+    {
+      "name": "mi",
+      "price": "657765",
+      "description": "camera",
+      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
+      "id": 6
+    },
+    {
+      "name": "i-phone",
+      "price": "100000",
+      "description": "128GB",
+      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
+      "id": 7
+    }
+  ]
+}

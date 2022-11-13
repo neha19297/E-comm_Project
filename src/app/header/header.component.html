@@ -1,0 +1,22 @@
+<nav class="nav">
+    <h1>E-comm</h1>
+    <DIV *ngIf="menuType==='default'" class="nav-search">
+        <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for products">
+        <button (click)="submitSearch(searchInput.value)"> Search</button>
+        <ul class="suggested-search" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a>{{item.name}}</a>
+
+            </li>
+
+        </ul>
+        <!-- search product by name -->
+    </DIV>
+    <ul>
+        <li> <a routerLink="/">Home</a>  </li>
+        <li> <a routerLink="/Products">Products</a> </li>
+        <li> <a routerLink="/Login">Login</a> </li>
+
+        
+    </ul>
+</nav>
