@@ -9,9 +9,14 @@ import { ProductsService } from '../services/products.service';
 })
 export class ProductsComponent implements OnInit {
   addProductMessage:string|undefined;
+  // productList:undefined | products[]
   constructor(private product:ProductsService) { }
 
   ngOnInit(): void {
+//     this.product.productList().subscribe((result)=>{
+// console.log(result);
+// this.productList=result;
+//     })
   }
   submit(data: products) {
     this.product.addProduct(data).subscribe((result) => {

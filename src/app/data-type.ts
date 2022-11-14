@@ -12,4 +12,5 @@ export interface products{
     price:number;
     description:string;
     image:string;
+    id:number;
 }

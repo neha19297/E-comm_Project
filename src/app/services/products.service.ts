@@ -6,18 +6,21 @@ import { products } from '../data-type';
   providedIn: 'root'
 })
 export class ProductsService {
-
+url="http://localhost:3000/products";
   constructor(private http:HttpClient) { }
   addProduct(data:products){
     // console.log('service called');
-   return this.http.post('http://localhost:3000/products',data)
+   return this.http.post("http://localhost:3000/products",data)
     
   }
-  prodList(){
-    return this.http.get<products[]>('http://localhost:3000/products')
+  productList(){
+    return this.http.get<products[]>("http://localhost:3000/products")
   }
   searchProducts(query:string){
     return this.http.get<products[]>('http://localhost:3000/products?q=$(query)')
   }
-  //for serch product service
+  //for search product service
+  deleteProduct(id:number){
+return this.http.delete("http://localhost:3000/products/${id}")
+  }
 }

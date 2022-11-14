@@ -8,8 +8,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { ProductsComponent } from './products/products.component';
+import { ProductsComponent } from './addProducts/products.component';
 import { SearchComponent } from './search/search.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,14 +19,16 @@ import { SearchComponent } from './search/search.component';
     HomeComponent,
     LoginComponent,
     ProductsComponent,
-    SearchComponent
+    SearchComponent,
+    
     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

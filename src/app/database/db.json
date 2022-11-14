@@ -24,20 +24,6 @@
   ],
   "products": [
     {
-      "name": "i-phone",
-      "price": "100000",
-      "description": "hdyhjjjjjj",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-finish-select-202207-white?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1662150115751",
-      "id": 1
-    },
-    {
-      "name": "Realme",
-      "price": "24000",
-      "description": "mobile phone with 128GB storage",
-      "image": "https://cdn1.smartprix.com/rx-ivQiMBr6z-w1200-h1200/realme-9-pro-plus-5g.webp",
-      "id": 2
-    },
-    {
       "name": "samsung",
       "price": "30000",
       "description": "128GB",
@@ -71,6 +57,27 @@
       "description": "128GB",
       "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
       "id": 7
+    },
+    {
+      "name": "realme",
+      "price": "10000",
+      "description": "64GB",
+      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
+      "id": 8
+    },
+    {
+      "name": "realme",
+      "price": "20000",
+      "description": "128GB",
+      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
+      "id": 8
+    },
+    {
+      "name": "watch",
+      "price": "1000",
+      "description": "smart watch",
+      "image": "https://static.toiimg.com/photo/79837759.cms",
+      "id": 9
     }
   ]
 }
