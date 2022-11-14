@@ -11,6 +11,8 @@ import { LoginComponent } from './login/login.component';
 import { ProductsComponent } from './addProducts/products.component';
 import { SearchComponent } from './search/search.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProductDetailsComponent } from './product-details/product-details.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     LoginComponent,
     ProductsComponent,
     SearchComponent,
-    
-    
+    ProductDetailsComponent,
+    FooterComponent     
   ],
   imports: [
     BrowserModule,

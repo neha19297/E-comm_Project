@@ -1,6 +1,6 @@
 <nav class="nav">
     <h1>E-comm</h1>
-    <DIV *ngIf="menuType==='default'" class="nav-search">
+    <div *ngIf="menuType==='default'" class="nav-search">
         <input type="text" #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="search for products">
         <button (click)="submitSearch(searchInput.value)"> Search</button>
         <ul class="suggested-search" *ngIf="searchResult">
@@ -11,24 +11,26 @@
 
         </ul>
         <br>
-
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <li class="nav-item"> <a routerLink="/">Home</a>  </li>
-                    <li class="nav-item"> <a routerLink="/Products">Products</a> </li>
-                    <li class="nav-item"><a routerLink="/addProduct">AddProduct</a> </li>
-                    <li class="nav-item"><a routerLink="/editProduct">EditProduct</a> </li>
-                    <li class="nav-item"> <a routerLink="/Login">Login</a> </li>
-                </div>
-              </div>
-            </div>
-          </nav>
+<div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <li class="nav-item"> <a routerLink="/">Home</a>  </li>
+            <li class="nav-item"> <a routerLink="/Products">Products</a> </li>
+    
+            <li class="nav-item"> <a routerLink="/Login">Login</a> </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+</div>
+        
           <!-- <div class="container"> -->
             <!-- <router-outlet></router-outlet> -->
           <!-- </div> -->

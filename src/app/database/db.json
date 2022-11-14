@@ -24,27 +24,6 @@
   ],
   "products": [
     {
-      "name": "samsung",
-      "price": "30000",
-      "description": "128GB",
-      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
-      "id": 3
-    },
-    {
-      "name": "samsung",
-      "price": "30000",
-      "description": "128GB",
-      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
-      "id": 4
-    },
-    {
-      "name": "samsung",
-      "price": "30000",
-      "description": "128GB",
-      "image": "https://image05.realme.net/general/20220517/1652773373432.png.webp",
-      "id": 5
-    },
-    {
       "name": "mi",
       "price": "657765",
       "description": "camera",
@@ -52,32 +31,32 @@
       "id": 6
     },
     {
-      "name": "i-phone",
-      "price": "100000",
-      "description": "128GB",
-      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
-      "id": 7
-    },
-    {
-      "name": "realme",
-      "price": "10000",
-      "description": "64GB",
-      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
-      "id": 8
-    },
-    {
-      "name": "realme",
-      "price": "20000",
-      "description": "128GB",
-      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G390766_View_1/mobiles/smartphones/apple-iphone-14-128-gb-blue-4-gb-ram-.jpg",
-      "id": 8
+      "name": "washing machine",
+      "price": "25000",
+      "description": "rpm",
+      "image": "https://www.lg.com/in/images/washing-machines/md07515049/gallery/FHM1208ZDL-Washing-Machines-Right-View-D-03.jpg",
+      "id": 10
     },
     {
       "name": "watch",
-      "price": "1000",
+      "price": "1200",
       "description": "smart watch",
-      "image": "https://static.toiimg.com/photo/79837759.cms",
-      "id": 9
+      "image": "https://image.shutterstock.com/image-vector/smartwatch-collection-realistic-icons-isolated-260nw-1953584863.jpg",
+      "id": 11
+    },
+    {
+      "name": "AC",
+      "price": "32000",
+      "description": "samsung",
+      "image": "https://static.toiimg.com/photo/msid-86615130/86615130.jpg",
+      "id": 12
+    },
+    {
+      "name": "i phone",
+      "price": "10000",
+      "description": "pro",
+      "image": "https://www.apple.com/newsroom/images/product/iphone/geo/Apple_iphone13_hero_geo_09142021_inline.jpg.large.jpg",
+      "id": 13
     }
   ]
 }

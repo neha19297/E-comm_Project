@@ -22,7 +22,7 @@ export class HeaderComponent implements OnInit {
        
         if(result.length>5){
           result.length=length
-        }
+        } //only 5 results in search
         this.searchResult=result;
       })
     }
@@ -35,6 +35,6 @@ export class HeaderComponent implements OnInit {
   }
 submitSearch(val:string){
   console.log(val);
-  this.route.navigate(['search/$(val)'])
+  this.route.navigate([`search/$(val)`])
 }
 }
