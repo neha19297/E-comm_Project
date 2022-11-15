@@ -12,8 +12,8 @@ const routes: Routes = [
   {path:'Products',component:ProductsComponent},
   {path:'Login',component:LoginComponent},
   {path:'search/:query',component:SearchComponent},
-  {path:'details/:productId',component:ProductDetailsComponent},
-  {path:'', redirectTo:'/home',pathMatch:'full'}
+  {path:'details/:productId',component:ProductDetailsComponent}
+  // {path:'', redirectTo:'/home',pathMatch:'full'}
 
 
 ];

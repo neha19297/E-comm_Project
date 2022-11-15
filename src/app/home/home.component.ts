@@ -27,15 +27,13 @@ productMsg:undefined | string;
         this.productMsg = undefined;
       }, 3000);
     }
-    list(){
-      this.product.productList().subscribe((result)=>{
-        console.log(result);
-        if(result){
-          this.productList=result;
+    list() {
+      this.product.productList().subscribe((result) => {
+        if (result) {
+          this.productList = result;
         }
-        })
+      });
     }
-    }
-  
+  }
 
 

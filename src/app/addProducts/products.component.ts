@@ -14,6 +14,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit(): void {
 
+
   }
   submit(data: products) {
     this.product.addProduct(data).subscribe((result) => {

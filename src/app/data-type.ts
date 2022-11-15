@@ -14,3 +14,4 @@ export interface products{
     image:string;
     id:number;
 }
+//typificatin of code
